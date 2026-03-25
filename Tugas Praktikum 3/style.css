@@ -1,0 +1,112 @@
+body {
+    background: linear-gradient(to bottom, #93c5fd, #3b82f6, #1e40af);
+    margin: 40px;
+    line-height: 1.6;
+    min-height: 100vh;
+}
+
+h1 {
+    font-family: "Italiana", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4.5em;
+}
+
+p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.desc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 15px;
+    max-width: 420px;
+    margin: auto;
+    padding: 30px 50px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-optical-sizing: auto;
+}
+
+.card p {
+    text-align: center;
+    margin: 0;
+}
+
+.card a {
+    display: block;
+    padding-top: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    height: 40px;
+    padding-left: 7.5px;
+    border-color: black;
+    border-radius: 10px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-optical-sizing: auto;
+    font-size: 16px;
+}
+
+input::placeholder {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.forgot-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 4em;
+}
+
+button {
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin: 0 auto;
+    background-color: #3B82F6;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-optical-sizing: auto;
+    font-size: 16px;
+}
