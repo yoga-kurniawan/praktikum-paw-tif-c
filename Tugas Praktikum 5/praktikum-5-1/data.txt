@@ -1,0 +1,5 @@
+Ini adalah contoh file teks sederhana.
+File ini digunakan untuk percobaan membaca isi file di PHP.
+Setiap baris berisi kalimat yang berbeda.
+Data ini bisa dibaca menggunakan berbagai fungsi seperti fgets atau file_get_contents.
+Baris terakhir sebagai penutup dari file percobaan.
