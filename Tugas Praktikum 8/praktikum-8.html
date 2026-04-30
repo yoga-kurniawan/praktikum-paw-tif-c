@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Praktikum 8</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Segoe UI', Roboto, sans-serif;
+            transition: background 1.5s ease;
+            color: white;
+            text-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+            overflow: hidden;
+        }
+        #clock {
+            font-size: 6rem;
+            font-weight: bold;
+            line-height: 1;
+        }
+        h1 {
+            font-size: 3rem;
+            margin-top: 20px;
+            color: #ecf0f1;
+        }
+        .pagi { background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%); color: #2c3e50; }
+        .siang { background: linear-gradient(135deg, #2980b9 0%, #6dd5fa 100%); }
+        .sore { background: linear-gradient(135deg, #f39c12 0%, #d35400 100%); }
+        .malam { background: linear-gradient(135deg, #0f2027 0%, #2c3e50 100%); }
+    </style>
+</head>
+<body>
+    <div id="clock">00:00:00</div>
+    <h1 id="greeting">MEMUAT...</h1>    
+    <script src="praktikum-8.js"></script>
+</body>
+</html>
